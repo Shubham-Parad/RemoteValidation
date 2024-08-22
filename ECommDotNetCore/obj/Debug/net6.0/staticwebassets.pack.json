@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ECommDotNetCore.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\Content\\Images\\phone2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\phone2.jpg"
+    },
+    {
       "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -85,3 +85,4 @@ C:\Users\MASSTECH\source\repos\Shubham Parad\ECommDotNetCore\ECommDotNetCore\obj
 C:\Users\MASSTECH\source\repos\Shubham Parad\ECommDotNetCore\ECommDotNetCore\obj\Debug\net6.0\ECommDotNetCore.pdb
 C:\Users\MASSTECH\source\repos\Shubham Parad\ECommDotNetCore\ECommDotNetCore\obj\Debug\net6.0\ECommDotNetCore.genruntimeconfig.cache
 C:\Users\MASSTECH\source\repos\Shubham Parad\ECommDotNetCore\ECommDotNetCore\obj\Debug\net6.0\ref\ECommDotNetCore.dll
+C:\Users\MASSTECH\source\repos\Shubham Parad\ECommDotNetCore\ECommDotNetCore\obj\Debug\net6.0\ECommDotNetCore.sourcelink.json

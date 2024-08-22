@@ -1,14 +1,17 @@
-﻿@model User
+﻿@model LoginModel
 
 <form method="post">
     <div class="form-group">
         <label for="exampleInputEmail1">Email</label>
         <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        @* <span asp-validation-for="Email" class="text-sm text-danger"></span> *@
+        <span class="text-danger text-sm">@TempData["ErrorEmail"]</span>
     </div>
     <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
         <input type="password" asp-for="Password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <span class="text-danger text-sm">@TempData["ErrorPassword"]</span>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+<span>Don't have an Account? <a asp-controller="Auth" asp-action="SignUp">SignUp</a></span>

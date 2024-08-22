@@ -1,6 +1,8 @@
 ﻿using ECommDotNetCore.Data;
 using ECommDotNetCore.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 namespace ECommDotNetCore.Controllers
 {
@@ -30,9 +32,38 @@ namespace ECommDotNetCore.Controllers
             }
         }
 
+        public static string EncryptedPassword(string password)
+        {
+            if (string.IsNullOrEmpty(password))
+            {
+                return null;
+            }
+            else
+            {
+                byte[] pass = ASCIIEncoding.ASCII.GetBytes(password);
+                string encrpass = Convert.ToBase64String(pass);
+                return encrpass;
+            }
+        }
+
+        public static string DecryptedPassword(string password)
+        {
+            if (string.IsNullOrEmpty(password))
+            {
+                return null;
+            }
+            else
+            {
+                byte[] pass = Convert.FromBase64String(password);
+                string decrpass = ASCIIEncoding.ASCII.GetString(pass);
+                return decrpass;
+            }
+        }
+
         [HttpPost]
         public IActionResult SignUp(User u)
         {
+            u.Password = EncryptedPassword(u.Password);
             u.Role = "User";
             db.user.Add(u);
             db.SaveChanges();
@@ -51,17 +82,34 @@ namespace ECommDotNetCore.Controllers
         }
 
         [HttpPost]
-        public IActionResult SignIn(User u)
+        public IActionResult SignIn(LoginModel log)
         {
-            var data = db.user.Where(x => x.Email == u.Email && x.Password == u.Password);
+            var data = db.user.Where(x => x.Email.Equals(log.Email)).SingleOrDefault();
             if (data != null)
             {
-                return RedirectToAction("SignUp");
+                bool us = data.Email.Equals(log.Email) && DecryptedPassword(data.Password).Equals(log.Password);
+                if (us)
+                {
+                    HttpContext.Session.SetString("myuser",data.Email);
+                    return RedirectToAction("Index", "Product");
+                }
+                else
+                {
+                    TempData["ErrorPassword"] = "Invalid Password";
+                }
             }
             else
             {
-                return View();
+                TempData["ErrorEmail"] = "Invalid Email";
             }
-        }        
+            return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync();
+            HttpContext.Session.Clear();
+            return RedirectToAction("SignIn");
+        }
     }
 }

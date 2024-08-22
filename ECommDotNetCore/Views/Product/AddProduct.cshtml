@@ -1,0 +1,26 @@
+﻿@model ProductViewModel
+
+<form method="post" asp-action="AddProduct" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="exampleInputEmail1">PName</label>
+        <input type="text" asp-for="Pname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter product name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">PCat</label>
+        <select class="form-control" asp-for="Pcat">
+            <option>Electronics</option>
+            <option>Clothes</option>
+            <option>Others</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Price</label>
+        <input type="text" asp-for="Price" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter price">
+    </div>
+    <div>
+        <label for="exampleInputEmail1">Image</label>
+        <input type="file" asp-for="Picture" class="form-control">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
