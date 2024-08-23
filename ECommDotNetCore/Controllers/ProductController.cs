@@ -1,6 +1,7 @@
 ﻿using ECommDotNetCore.Data;
 using ECommDotNetCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 namespace ECommDotNetCore.Controllers
 {
@@ -14,10 +15,18 @@ namespace ECommDotNetCore.Controllers
             this.db = db;
             this.env = env;
         }
-        public IActionResult Index()
+        public IActionResult Index(string choice)
         {
-            var data = db.products.ToList();
-            return View(data);
+            if (choice == "All")
+            {
+                var data = db.products.Take(5).ToList();
+                return View(data);
+            }
+            else
+            {
+                var data = db.products.OrderBy(x => x.Price).ToList();
+                return View(data);
+            }
         }
 
         public IActionResult AddProduct()
@@ -49,6 +58,44 @@ namespace ECommDotNetCore.Controllers
         {
             FileStream stream = new FileStream(path, FileMode.Create);
             file.CopyTo(stream);
+        }
+
+        public IActionResult LTH()
+        {
+            var data = db.products.OrderBy(x => x.Price).ToList();
+            return View(data);
+        }
+
+        [HttpPost]
+        public IActionResult AddToCart(int id)
+        {
+            string sess = HttpContext.Session.GetString("myuser");
+            var prod = db.products.Find(id);
+            var obj = new Cart()
+            {
+                Pname = prod.Pname,
+                Pcat = prod.Pcat,
+                Picture = prod.Picture,
+                Price = prod.Price,
+                Suser = sess
+            };
+            db.carts.Add(obj);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult ShowCart()
+        {
+            if(HttpContext.Session.GetString("myuser").IsNullOrEmpty())
+            {
+                return RedirectToAction("SignIn", "Auth");
+            }
+            else
+            {
+                var sess = HttpContext.Session.GetString("myuser");
+                var prod = db.carts.Where(x=>x.Suser == sess).ToList();
+                return View(prod);
+            }
         }
     }
 }

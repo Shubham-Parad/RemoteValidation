@@ -9,5 +9,6 @@ namespace ECommDotNetCore.Data
 
         public DbSet<User> user { get; set; }
         public DbSet<Product> products { get; set; }
+        public DbSet<Cart> carts { get; set; }
     }
 }

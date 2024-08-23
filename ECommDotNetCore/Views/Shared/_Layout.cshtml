@@ -31,6 +31,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Privacy">@HttpContextAccessor.HttpContext.Session.GetString("myuser")</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="ShowCart">Cart</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Auth" asp-action="Logout">Logout</a>
                         </li>
                     </ul>

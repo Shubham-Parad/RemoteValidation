@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\ECommDotNetCore.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\Content\\Images\\jeans.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\jeans.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\Content\\Images\\laptop.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\laptop.jpg"
+    },
+    {
       "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\Content\\Images\\phone2.jpg",
       "PackagePath": "staticwebassets\\Content\\Images\\phone2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\Content\\Images\\shirt.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\Content\\Images\\shirt2.jpg",
+      "PackagePath": "staticwebassets\\Content\\Images\\shirt2.jpg"
     },
     {
       "Id": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\wwwroot\\css\\site.css",

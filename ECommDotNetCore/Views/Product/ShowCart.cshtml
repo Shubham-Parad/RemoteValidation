@@ -1,0 +1,25 @@
+﻿@model List<Cart>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Image</th>
+            <th scope="col">Pname</th>
+            <th scope="col">Pcat</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <th scope="row">@d.Pid</th>
+                <td>@d.Picture</td>
+                <td>@d.Pname</td>
+                <td>@d.Pcat</td>
+                <td>@d.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
