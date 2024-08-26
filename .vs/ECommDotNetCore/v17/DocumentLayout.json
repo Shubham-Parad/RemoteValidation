@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\views\\product\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\views\\product\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|c:\\users\\masstech\\source\\repos\\shubham parad\\ecommdotnetcore\\ecommdotnetcore\\views\\product\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FF8486-8BBF-4653-BA9F-100EDB2C6239}|ECommDotNetCore\\ECommDotNetCore.csproj|solutionrelative:ecommdotnetcore\\views\\product\\showcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,60 +93,136 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowCart.cshtml",
-              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
-              "RelativeDocumentMoniker": "ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
-              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
-              "RelativeToolTip": "ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Auth\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Views\\Auth\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Auth\\SignUp.cshtml",
+              "RelativeToolTip": "ECommDotNetCore\\Views\\Auth\\SignUp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T11:44:57.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "ECommDotNetCore\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "ECommDotNetCore\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T11:28:31.592Z",
+              "WhenOpened": "2024-08-26T11:01:01.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ECommDotNetCore\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T11:00:00.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Models\\User.cs",
+              "RelativeToolTip": "ECommDotNetCore\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:59:24.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Models\\LoginModel.cs",
+              "RelativeToolTip": "ECommDotNetCore\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:56:31.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Program.cs",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Program.cs",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Program.cs",
+              "RelativeToolTip": "ECommDotNetCore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:50:17.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\appsettings.json",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\appsettings.json",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\appsettings.json",
+              "RelativeToolTip": "ECommDotNetCore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-26T10:31:49.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ECommDotNetCore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBoAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T09:09:33.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShowCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
+              "RelativeDocumentMoniker": "ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
+              "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
+              "RelativeToolTip": "ECommDotNetCore\\Views\\Product\\ShowCart.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T11:44:57.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ECommDotNetCore\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ECommDotNetCore\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T11:03:30.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ECommDotNetCore\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\MASSTECH\\source\\repos\\Shubham Parad\\ECommDotNetCore\\ECommDotNetCore\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ECommDotNetCore\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAowEYAAAAIAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAwwFIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T09:03:35.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T09:03:35.083Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

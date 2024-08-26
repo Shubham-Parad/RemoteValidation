@@ -15,11 +15,17 @@
         {
             <tr>
                 <th scope="row">@d.Pid</th>
-                <td>@d.Picture</td>
+                <td><img width="50" height="50" src="/@d.Picture" /></td>
                 <td>@d.Pname</td>
                 <td>@d.Pcat</td>
                 <td>@d.Price</td>
             </tr>
         }
     </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4" class="text-right"><strong>Total Price:</strong></td>
+            <td><strong>₹ @Model.Sum(d => d.Price).ToString("N2")</strong></td>
+        </tr>
+    </tfoot>
 </table>

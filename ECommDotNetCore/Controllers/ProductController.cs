@@ -66,7 +66,6 @@ namespace ECommDotNetCore.Controllers
             return View(data);
         }
 
-        [HttpPost]
         public IActionResult AddToCart(int id)
         {
             string sess = HttpContext.Session.GetString("myuser");
@@ -81,7 +80,7 @@ namespace ECommDotNetCore.Controllers
             };
             db.carts.Add(obj);
             db.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("ShowCart");
         }
 
         public IActionResult ShowCart()

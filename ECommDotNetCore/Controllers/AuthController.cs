@@ -91,6 +91,7 @@ namespace ECommDotNetCore.Controllers
                 if (us)
                 {
                     HttpContext.Session.SetString("myuser",data.Email);
+                    HttpContext.Session.SetString("urole",data.Role);
                     return RedirectToAction("Index", "Product");
                 }
                 else
